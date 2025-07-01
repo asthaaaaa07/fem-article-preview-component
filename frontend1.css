@@ -1,7 +1,4 @@
-.social-icons{
-    display:none;
- 
-}
+
 .social-icons.show{
     display:flex;
 }
@@ -82,7 +79,7 @@ body{
   cursor:pointer;
 }
 .social-icons{
-  display:flex;
+ display:none;
   font-family:Manrope;
   color: hsl(214, 17%, 51%);
   justify-content:space-between;
@@ -131,6 +128,7 @@ body{
   }
 
   .social-icons {
+   
     flex-direction: row;
     justify-content: center;
     gap: 12px;
